@@ -1,6 +1,6 @@
 .prueba{
     font-weight: 700;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     justify-content: space-around;
     padding: auto;
 }
@@ -10,11 +10,13 @@
     cursor: pointer;
     border: 1px solid rgb(214, 215, 216);
     border-radius: 50%;
+    margin: .4rem;
 }
 
 .arrow__clas:hover{
-    color: rgb(255, 255, 255);
-    background-color: #f87141;
+    color: #f9fbfc;
+    background-color: rgb(248, 113, 65);
     border-radius: 50%;
     border: none;
 }
+/*#f8d280

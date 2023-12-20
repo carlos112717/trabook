@@ -3,636 +3,392 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap CSS-->
-        <link rel="stylesheet" href="styles__css/bootstrap.css">
-        <link rel="stylesheet" href="styles__css/theme.css">
+        <!-- Bootstrap CSS
+        <link rel="stylesheet" href="styles__css/bootstrap.css">-->
+        <link rel="stylesheet" href="styles__css/styles_bootstrap.css">
         <!--Styles CSS-->
         <link rel="stylesheet" href="styles__css/styles.css">
         <!-- Fonts Google-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
             rel="stylesheet">
         <title>Trabook</title>
     </head>
-    <body class="m-0 p-0" style="font-family: 'Raleway', sans-serif;">
-        <div class="container-fluid d-flex flex-column m-0 p-0"
-            style="background-color:#fefcfb"><!-- Contenedor principal-->
-            <div class="row mx-5 d-flex align-items-center">
-
-                <!--Barra de navegación-->
-                <nav class="navbar navbar-expand-lg mt-3">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="img/Logo.png"
-                                alt="Logo"></a>
-                        <button class="navbar-toggler" type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarTogglerDemo02"
-                            aria-controls="navbarTogglerDemo02"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse"
-                            id="navbarTogglerDemo02">
-                            <!--Enlaces de la barra ed navegación-->
-                            <ul class="navbar-nav m-auto mb-2 mb-lg-0"
-                                style="font-family: 'Raleway', sans-serif; font-weight: 700;">
-                                <li class="nav-item">
-                                    <a class="nav-link active"
-                                        aria-current="page"
-                                        href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Destination</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Tour</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
-                                </li>
-
-                            </ul>
-                            <!--Botones del login y sign-->
-                            <div class="d-flex">
-                                <a class="mr-" href="#"
-                                    style="margin-right: 2rem;"><button
-                                        type="button" class="btn"
-                                        style="color: #f87141; font-weight: 600; ">Login</button></a>
-                                <button type="button"
-                                    class="btn btn-warning px-4"
-                                    style="font-weight: 600;">Signup
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-
-            <!--Sección de titulo e imagen turista-->
-            <div
-                class="container-md mx-5 pt-5 d-flex justify-content-between flex-wrap">
-                <div class="col-md-5 mt-4 pt-5">
-                    <h1
-                        class="fw-bold text-fluid display-3 text-start text-wrap"
-                        style="font-family: 'Raleway', sans-serif; line-height: 1">Get
-                        started your exciting<span style="color: #f87141;">journey</span>with
-                        us.
-                    </h1>
-                    <p class="text-muted text-start fs-4 pt-3 text-wrap">
-                        A Team of experienced tourism professionals will provide
-                        you with the best adice and tips for your desire place.
-                    </p>
-
-                    <div class="d-flex">
-                        <button type="button"
-                            class="btn btn-outline-warning px-4 p-3"
-                            style="font-family: 'Raleway', sans-serif; font-weight: 600;">Discover
-                            now</button>
-                    </div>
-
-                </div>
-                <!--Contenedor imagen turista-->
-                <div class="col-5 d-flex flex-column"
-                    style="background-image: url('img/turista_no_bg.png'); background-size: cover; background-repeat: no-repeat; background-position: center; height: auto;">
-                    <div class="row mt-5 align-items-center d-flex pt-5">
-                        <a class="nav-link" href="#">
-                            <div
-                                class="col-4 d-flex align-items-center ps-4 p-2"
-                                style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; background-color:#ffffff; border-radius: .5rem;">
-
-                                <img src="img/best.png"
-                                    style="width: 40px; height: 40px"
-                                    alt="imagen of best" />
-                                <p
-                                    class="mb-0 fw-bold text-fluid ps-2 text-wrap">Best
-                                    Tour Awards</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="row mt-3 align-items-center d-flex ">
-                        <a class="nav-link" href="#">
-                            <div
-                                class="ms-md-auto col-lg-4 d-flex align-items-center justify-content-center ps-3 p-2 mt-5"
-                                style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; background-color:#ffffff; border-radius: .5rem;">
-
-                                <img src="img/best.png"
-                                    style="width: 40px; height: 40px"
-                                    alt="imagen of best" />
-                                <p
-                                    class="mb-0 fw-bold text-fluid ps-2 text-wrap">Explore
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="row mt-4 align-items-center d-flex ps-5">
-                        <a class="nav-link" href="#">
-                            <div
-                                class="me-auto col-5 d-flex align-items-center justify-content-center ps-3 p-2 mt-2"
-                                style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; background-color:#ffffff; border-radius: .5rem;">
-
-                                <img src="img/best.png"
-                                    style="width: 40px; height: 40px"
-                                    alt="imagen of best" />
-                                <p
-                                    class="mb-0 fw-bold text-fluid ps-2 text-wrap">27k</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Section Locatión y data-->
-
-            <div
-                class="container-fluid d-flex flex-wrap justify-content-center col-md-8 mt-5 shadow-sm  p-3 mb-5 rounded align-items-center"
-                style="background-color: #ffffff;">
-                <div class="col-3 d-flex flex-column align-items-start p-3 mb-0">
-
-                    <div class="d-flex flex-row text-start">
-
-                        <h6 class="fw-bold">Location</h6>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
-                            height="20" fill="#f87141"
-                            class="bi bi-caret-down"
-                            viewBox="0 0 16 16">
-                            <path stroke-width="10"
-                                d="M8 11.5l5-6L13 6.61 8 12 3 6.61 3.99 5.5l5 6z" />
-                        </svg>
-                    </div>
-
-                    <p class="text-start fw-semibold"
-                        style="color: #746969; font-size: .8100rem">Where are
-                        you
-                        going</p>
-
-                </div>
-                <div class="col-3 d-flex flex-column align-items-start">
-
-                    <div class="d-flex flex-row text-start">
-                        <h6 class="fw-bold">Date</h6>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
-                            height="20" fill="#f87141"
-                            class="bi bi-caret-down"
-                            viewBox="0 0 16 16">
-                            <path stroke-width="10"
-                                d="M8 11.5l5-6L13 6.61 8 12 3 6.61 3.99 5.5l5 6z" />
-                        </svg>
-                    </div>
-                    <p class="text-start fw-semibold"
-                        style="color: #746969; font-size: .8100rem">When you
-                        will
-                        go</p>
-                </div>
-                <div class="col-3 d-flex flex-column align-items-start">
-                    <div class="d-flex flex-row text-start">
-                        <h6 class="fw-bold">Guest</h6>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
-                            height="20" fill="#f87141"
-                            class="bi bi-caret-down"
-                            viewBox="0 0 16 16">
-                            <path stroke-width="10"
-                                d="M8 11.5l5-6L13 6.61 8 12 3 6.61 3.99 5.5l5 6z" />
-                        </svg>
-                    </div>
-                    <p class="text-start fw-semibold"
-                        style="color: #746969; font-size: .8100rem">Number of
-                        guests</p>
-                </div>
-                <div class="col-3 d-flex justify-content-center mt-0">
-                    <button type="button"
-                        class="btn btn-warning p-3 px-4 fw-bold">Explore now
-                    </button>
-                </div>
-            </div>
-
-            <!--Section 2-->
-
-            <div class="py-5 mt-5 text-center container-fluid"
-                style="background-color: #f2f5fa;">
-                <div class="row py-lg-5">
-                    <div class="col-md-5 mx-auto">
-                        <h1
-                            class="fw-bold text-fluid display-5 text-center text-wrap"
-                            style="font-family: 'Raleway', sans-serif; line-height: 1">Things
-                            you need <span
-                                style="color: #f87141;">to do</span>
-                        </h1>
-                        <p
-                            class="text-muted text-center fs-5 pt-3 text-wrap text-fluid">
-                            We ebsure that you'll embark on a perfectly planned,
-                            safe vacation at price you can afford.
-                        </p>
-                    </div>
-                    <!--Aviones para organizar-->
-                    <!--<div class="col-md-3 ps-3">
-                        <img src="img/aviones.png" class="img-fluid"
-                            style="width: 100%;">
-                    </div>-->
-
-                </div>
-
-                <div class="container d-flex">
+    <body>
+        <main class="main bg-main">
+            <nav
+                class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
+                data-navbar-on-scroll="data-navbar-on-scroll">
+                <div class="container"><a class="navbar-brand" href="index.html"><img
+                            src="img/Logo.png" height="24" alt="logo" /></a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon"> </span></button>
                     <div
-                        class="row align-items-center flex-wrap">
-                        <div
-                            class="col shadow bg-body rounded mx-3 text-start">
-                            <img src="img/Group (2).png"
-                                class="img-fluid my-4 mx-5 mt-5 ">
-                            <h3 class="fw-bold my-2 mx-5">Sign up</h3>
-                            <p
-                                class="fw-semibold mx-5 mb-5 text-muted text-wrap text-fluid"
-                                style="font-size: .8rem;">Completes
-                                all the
-                                work
-                                associated with planning
-                                and processing</p>
-                        </div>
-                        <div
-                            class="col shadow bg-body rounded mx-3 text-start">
-                            <img src="img/Group.png"
-                                class="img-fluid my-4 mx-5 mt-5 ">
-                            <h3 class="fw-bold my-2 mx-5">Worth of Money</h3>
-                            <p
-                                class="fw-semibold mx-5 mb-5 text-muted text-wrap text-fluid"
-                                style="font-size: .8rem;">After
-                                succesful access then book from exclusive
-                                deals & pricing</p>
-                        </div>
-                        <div
-                            class="col shadow bg-body rounded mx-3 text-start">
-                            <img src="img/Group (1).png"
-                                class="img-fluid my-4 mx-5 mt-5 ">
-                            <h3 class="fw-bold my-2 mx-5">Exciting travel</h3>
-                            <p
-                                class="fw-semibold mx-5 mb-5 text-muted text-wrap text-fluid"
-                                style="font-size: .8rem;">Start and explore a
-                                wide range of exciting travel
-                                experience.</p>
-                        </div>
+                        class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0 justify-content-lg-center"
+                        id="navbarSupportedContent">
+                        <ul
+                            class="navbar-nav ms-auto pt-2 pt-lg-0 d-flex align-items-lg-center align-items-start">
+                            <li class="nav-item px-3 px-xl-4"><a
+                                    class="nav-link fw-medium"
+                                    aria-current="page" href="#">Home</a></li>
+                            <li class="nav-item px-3 px-xl-4"><a
+                                    class="nav-link fw-medium"
+                                    aria-current="page" href="#about">About</a></li>
+                            <li class="nav-item px-3 px-xl-4"><a
+                                    class="nav-link fw-medium"
+                                    aria-current="page" href="#destination">Destinatión</a></li>
+                            <li class="nav-item px-3 px-xl-4"><a
+                                    class="nav-link fw-medium"
+                                    aria-current="page" href="#tour">Tour</a></li>
+                            <li class="nav-item px-3 px-xl-4"><a
+                                    class="nav-link fw-medium"
+                                    aria-current="page" href="#blog">Blog</a></li>
+                            <li class="nav-item px-3 px-xl-2"><a
+                                    class="nav-link fw-medium"
+                                    aria-current="page" href="#!">Login</a></li>
+                            <li class="nav-item px-3 px-xl-2"><a
+                                    class="btn btn-danger order-1 order-lg-0 fw-medium btn-lg primary-btn-shadow"
+                                    href="#!">Sign Up</a></li>
+                        </ul>
                     </div>
+                </div>
+            </nav>
 
+            <!--sección 1-->
+            <section style="padding-top: 7rem;">
+                <div class="bg-holder"
+                    style="background-image:url(assets/img/hero/hero-bg.svg);">
                 </div>
 
-            </div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div
+                            class="col-md-5 col-lg-6 order-0 order-md-1 text-end"><img
+                                class="pt-7 pt-md-0 hero-img"
+                                src="img/turista_no_bg.png"
+                                alt="hero-header" /></div>
+                        <div
+                            class="col-md-7 col-lg-6 text-md-start text-center py-6">
+                            <h1 class="display-3"
+                                style="font-size: 3.5rem;">Get
+                                started your exciting
+                                <span class="text-danger">journey</span> whit
+                                us.</h1>
+                            <p class="mb-4 mt-4 fw-medium lh-lg fs-lg-2">A
+                                Team
+                                of
+                                experienced
+                                tourism professionals will<br
+                                    class="d-none d-xl-block" />provide you with
+                                the best advice and tips for your<br
+                                    class="d-none d-xl-block" />desire place.</p>
+                            <div class="text-center text-md-start"> <a
+                                    class="btn btn-outline-danger btn-lg me-md-4 mb-3 mb-md-1 primary-btn-shadow"
+                                    href="#!" role="button">Discover Now</a>
 
-            <!--Section 3-->
-
-            <div class="py-5 mt-5 text-center container-fluid">
-                <div class="row py-lg-5">
-                    <div class="col-md-6 mx-auto">
-                        <h1
-                            class="fw-bold text-fluid display-5 text-center text-wrap"
-                            style="font-family: 'Raleway', sans-serif; line-height: 1">Exclusive
-                            <span
-                                style="color: #f87141;">deals & discounts</span>
-                        </h1>
-                        <p
-                            class="text-muted text-center fs-5 px-5 py-3 text-wrap text-fluid">
-                            Discover our fantastic early booking discounts &
-                            start planning your journey.
-                        </p>
+                            </div>
+                        </div>
                     </div>
-                    <!--Aviones para organizar-->
-                    <!--<div class="col-md-3 ps-3">
-                        <img src="img/aviones.png" class="img-fluid"
-                            style="width: 100%;">
-                    </div>-->
+                </div>
+            </section>
 
+            <!--Sección 2-->
+            <section class="py-5 bg-200">
+                <div class="container pt-4">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto text-center mb-3">
+                            <h1 class="display-3"
+                                style="font-size: 3rem;">Things you need
+                                <span class="text-danger">to do</span></h1>
+                            <p class="mb-5 pt-4 fw-medium lh-lg fs-lg-1">We
+                                ensure that you'll
+                                embark on
+                                a
+                                perfectly planned,<br
+                                    class="d-none d-xl-block" /> safe vacation
+                                at price you
+                                can afford.</p>
+                        </div>
+                    </div>
+                    <div class="row flex-center h-100">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 mb-5">
+                                    <div
+                                        class="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
+                                        <div
+                                            class="text-center text-md-start card-hover"><img
+                                                class="ps-3 icons"
+                                                src="img/Group (2).png"
+                                                height="45" alt />
+                                            <div class="card-body">
+                                                <h6
+                                                    class="fw-bold fs-3 heading-color mt-4">Sign
+                                                    Up</h6>
+                                                <p class="mt-3 mb-md-0 mb-lg-2">Completes
+                                                    all the work associated with
+                                                    planning and processing.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-5">
+                                    <div
+                                        class="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
+                                        <div
+                                            class="text-center text-md-start card-hover"><img
+                                                class="ps-3 icons"
+                                                src="img/Group.png"
+                                                height="45" alt />
+                                            <div class="card-body">
+                                                <h6
+                                                    class="fw-bold fs-3 heading-color mt-4">Worth
+                                                    of Money</h6>
+                                                <p class="mt-3 mb-md-0 mb-lg-2">After
+                                                    successful access then book
+                                                    from exclusive deals &
+                                                    pricing.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-5">
+                                    <div
+                                        class="card h-100 shadow px-4 px-md-2 px-lg-3 card-span pt-6">
+                                        <div
+                                            class="text-center text-md-start card-hover"><img
+                                                class="ps-3 icons"
+                                                src="img/Group (1).png"
+                                                height="45" alt />
+                                            <div class="card-body">
+                                                <h6
+                                                    class="fw-bold fs-3 heading-color mt-4">Exciting
+                                                    Travel</h6>
+                                                <p class="mt-3 mb-md-0 mb-lg-2">start
+                                                    and explore a wide range of
+                                                    exciting travel experience.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="container d-flex justify-content-between flex-wrap">
+            </section>
 
-                    <!--card 1-->
-                    <div class="card shadow bg-body rounded"
-                        style="width: 16rem;">
-                        <img src="img/Image (1).png" class="card-img-top"
-                            alt="Imagen de la ciudad">
-                        <div class="card-body text-start">
-                            <!-- Botón dentro de la imagen -->
-                            <button type="button"
-                                class="btn btn-warning py-2 px-2 fw-bold btn-sm"
-                                style="position: absolute; top: 200px; right: 90px;">
-                                Book Now
-                            </button>
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <h5 class="card-title fw-bold">Madrid</h5>
-                                <div
-                                    class="d-flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-star-fill text-warning mx-2"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                    </svg>
+            <!-- Sección 3-->
+            <section class="py-5 bg-100">
+                <div class="container pt-4">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto text-center mb-3">
+                            <h1 class="display-3"
+                                style="font-size: 3rem;">Exclusive
+                                <span class="text-danger">deals & discounts</span></h1>
+                            <p class="mb-5 pt-4 fw-medium lh-lg fs-lg-1">Discover
+                                our fantastic early booking
+                                discounts<br
+                                    class="d-none d-xl-block" /> & start
+                                planning your journey.</p>
+                        </div>
+                    </div>
+                    <div class="row flex-center h-100">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card overflow-hidden shadow">
+                                        <img class="card-img-top"
+                                            src="img/Image (1).png"
+                                            alt="Rome, Italty" />
+                                        <div class="card-body py-4 px-3">
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3 align-items-center">
+                                                <h2
+                                                    class="text-secondary fw-medium"><a
+                                                        class="text-decoration-none stretched-link"
+                                                        href="#!">Madrid</a></h2>
 
-                                    <span class="text-muted fw-bold"
-                                        style="font-family: Arial, Helvetica, sans-serif;">4.8</span>
-                                </div>
-                            </div>
+                                                <div
+                                                    class="d-flex align-items-center">
+                                                    <img class="mb-1"
+                                                        src="img/Star.png"
+                                                        style="margin-right: 5px"
+                                                        width="20"
+                                                        alt="start" /><span
+                                                        class="fs-0 fw-medium">4.8</span></div>
+                                            </div>
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3 align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center">
+                                                    <img class="mb-1"
+                                                        src="img/Visit.png"
+                                                        style="margin-right: 5px"
+                                                        width="20"
+                                                        alt="start" /><span
+                                                        class="fs-1 fw-medium">Spain</span></div>
+                                                <div
+                                                    class="d-flex align-items-center"><p
+                                                        class="fw-medium fs-1 mt-3 px-2 text-decoration-line-through">$950</p>
+                                                    <span
+                                                        class="border-rad-spam p-1 bg-danger-spam text-danger fw-medium">
+                                                        $850</span></div>
 
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <p class="card-text mt-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="18" height="18"
-                                        fill="currentColor"
-                                        class="bi bi-geo-alt-fill text-muted"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                    </svg>
-                                    <span
-                                        style="font-family: Arial, Helvetica, sans-serif;">Spain</span>
-                                </p>
-                                <div class="d-flex align-items-center">
-                                    <div
-                                        class="text-decoration-line-through">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="18" height="18"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar "
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span class="text-muted me-3 fw-bold"
-                                            style="font-family: Arial, Helvetica, sans-serif;">950</span>
-                                    </div>
-                                    <div
-                                        class="d-flex align-items-center rounded-3"
-                                        style="background-color: #faddd2;">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="18" height="18"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar"
-                                            style="color: #f87141;"
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span
-                                            class="fw-bold me-2"
-                                            style="color: #f87141;"
-                                            style="font-family: Arial, Helvetica, sans-serif;">850</span>
+                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
+
+                                <div class="col-md-3 mb-4">
+                                    <div class="card overflow-hidden shadow">
+                                        <img class="card-img-top"
+                                            src="img/faro.png"
+                                            alt="Rome, Italty" />
+                                        <div class="card-body py-4 px-3">
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3 align-items-center">
+                                                <h2
+                                                    class="text-secondary fw-medium"><a
+                                                        class="text-decoration-none stretched-link"
+                                                        href="#!">Firenze</a></h2>
+
+                                                <div
+                                                    class="d-flex align-items-center">
+                                                    <img class="mb-1"
+                                                        src="img/Star.png"
+                                                        style="margin-right: 5px"
+                                                        width="20"
+                                                        alt="start" /><span
+                                                        class="fs-0 fw-medium">4.5</span></div>
+                                            </div>
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3 align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center">
+                                                    <img class="mb-1"
+                                                        src="img/Visit.png"
+                                                        style="margin-right: 5px"
+                                                        width="20"
+                                                        alt="start" /><span
+                                                        class="fs-1 fw-medium">Italy</span></div>
+                                                <div
+                                                    class="d-flex align-items-center"><p
+                                                        class="fw-medium fs-1 mt-3 px-2 text-decoration-line-through">$850</p>
+                                                    <span
+                                                        class="border-rad-spam p-1 bg-danger-spam text-danger fw-medium">
+                                                        $750</span></div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 mb-4">
+                                    <div class="card overflow-hidden shadow">
+                                        <img class="card-img-top"
+                                            src="img/Image (2).png"
+                                            alt="Rome, Italty" />
+                                        <div class="card-body py-4 px-3">
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3 align-items-center">
+                                                <h2
+                                                    class="text-secondary fw-medium"><a
+                                                        class="text-decoration-none stretched-link"
+                                                        href="#!">Paris</a></h2>
+
+                                                <div
+                                                    class="d-flex align-items-center">
+                                                    <img class="mb-1"
+                                                        src="img/Star.png"
+                                                        style="margin-right: 5px"
+                                                        width="20"
+                                                        alt="start" /><span
+                                                        class="fs-0 fw-medium">4.4</span></div>
+                                            </div>
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3 align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center">
+                                                    <img class="mb-1"
+                                                        src="img/Visit.png"
+                                                        style="margin-right: 5px"
+                                                        width="20"
+                                                        alt="start" /><span
+                                                        class="fs-1 fw-medium">France</span></div>
+                                                <div
+                                                    class="d-flex align-items-center"><p
+                                                        class="fw-medium fs-1 mt-3 px-2 text-decoration-line-through">$699</p>
+                                                    <span
+                                                        class="border-rad-spam p-1 bg-danger-spam text-danger fw-medium">
+                                                        $599</span></div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 mb-4">
+                                    <div class="card overflow-hidden shadow">
+                                        <img class="card-img-top"
+                                            src="img/Image (3).png"
+                                            alt="Rome, Italty" />
+                                        <div class="card-body py-4 px-3">
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3 align-items-center">
+                                                <h2
+                                                    class="text-secondary fw-medium"><a
+                                                        class="text-decoration-none stretched-link"
+                                                        href="#!">London</a></h2>
+
+                                                <div
+                                                    class="d-flex align-items-center">
+                                                    <img class="mb-1"
+                                                        src="img/Star.png"
+                                                        style="margin-right: 5px"
+                                                        width="20"
+                                                        alt="start" /><span
+                                                        class="fs-0 fw-medium">4.8</span></div>
+                                            </div>
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3 align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center">
+                                                    <img class="mb-1"
+                                                        src="img/Visit.png"
+                                                        style="margin-right: 5px"
+                                                        width="20"
+                                                        alt="start" /><span
+                                                        class="fs-1 fw-medium">UK</span></div>
+                                                <div
+                                                    class="d-flex align-items-center"><p
+                                                        class="fw-medium fs-1 mt-3 px-2 text-decoration-line-through">$890</p>
+                                                    <span
+                                                        class="border-rad-spam p-1 bg-danger-spam text-danger fw-medium">
+                                                        $850</span></div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!--card 2-->
-                    <div class="card shadow bg-body rounded"
-                        style="width: 16rem;">
-                        <img src="img/faro.png" class="card-img-top"
-                            alt="Imagen de la ciudad">
-                        <div class="card-body text-start">
-                            <!-- Botón dentro de la imagen -->
-                            <button type="button"
-                                class="btn btn-warning py-2 px-2 fw-bold btn-sm"
-                                style="position: absolute; top: 200px; right: 90px;">
-                                Book Now
-                            </button>
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <h5 class="card-title fw-bold">Firenze</h5>
-                                <div
-                                    class="d-flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-star-fill text-warning mx-2"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                    </svg>
-
-                                    <span class="text-muted fw-bold"
-                                        style="font-family: Arial, Helvetica, sans-serif;">4.5</span>
-                                </div>
-                            </div>
-
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <p class="card-text mt-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="18" height="18"
-                                        fill="currentColor"
-                                        class="bi bi-geo-alt-fill text-muted"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                    </svg>
-                                    <span
-                                        style="font-family: Arial, Helvetica, sans-serif;">Italy</span>
-                                </p>
-                                <div class="d-flex align-items-center">
-                                    <div
-                                        class="text-decoration-line-through">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="18" height="18"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar "
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span class="text-muted me-3 fw-bold"
-                                            style="font-family: Arial, Helvetica, sans-serif;">850</span>
-                                    </div>
-                                    <div
-                                        class="d-flex align-items-center rounded-3"
-                                        style="background-color: #faddd2;">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="18" height="18"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar"
-                                            style="color: #f87141;"
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span
-                                            class="fw-bold me-2"
-                                            style="color: #f87141;"
-                                            style="font-family: Arial, Helvetica, sans-serif;">750</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--card 3-->
-                    <div class="card shadow bg-body rounded"
-                        style="width: 16rem;">
-                        <img src="img/Image (2).png" class="card-img-top"
-                            alt="Imagen de la ciudad">
-                        <div class="card-body text-start">
-                            <!-- Botón dentro de la imagen -->
-                            <button type="button"
-                                class="btn btn-warning py-2 px-2 fw-bold btn-sm"
-                                style="position: absolute; top: 200px; right: 90px;">
-                                Book Now
-                            </button>
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <h5 class="card-title fw-bold">Paris</h5>
-                                <div
-                                    class="d-flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-star-fill text-warning mx-2"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                    </svg>
-
-                                    <span class="text-muted fw-bold"
-                                        style="font-family: Arial, Helvetica, sans-serif;">4.4</span>
-                                </div>
-                            </div>
-
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <p class="card-text mt-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="18" height="18"
-                                        fill="currentColor"
-                                        class="bi bi-geo-alt-fill text-muted"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                    </svg>
-                                    <span
-                                        style="font-family: Arial, Helvetica, sans-serif;">France</span>
-                                </p>
-                                <div class="d-flex align-items-center">
-                                    <div
-                                        class="text-decoration-line-through">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="18" height="18"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar "
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span class="text-muted me-3 fw-bold"
-                                            style="font-family: Arial, Helvetica, sans-serif;">699</span>
-                                    </div>
-                                    <div
-                                        class="d-flex align-items-center rounded-3"
-                                        style="background-color: #faddd2;">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="18" height="18"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar"
-                                            style="color: #f87141;"
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span
-                                            class="fw-bold me-2"
-                                            style="color: #f87141;"
-                                            style="font-family: Arial, Helvetica, sans-serif;">599</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--card 4-->
-
-                    <div class="card shadow bg-body rounded"
-                        style="width: 16rem;">
-                        <img src="img/Image (3).png" class="card-img-top"
-                            alt="Imagen de la ciudad">
-                        <div class="card-body text-start">
-                            <!-- Botón dentro de la imagen -->
-                            <button type="button"
-                                class="btn btn-warning py-2 px-2 fw-bold btn-sm"
-                                style="position: absolute; top: 200px; right: 90px;">
-                                Book Now
-                            </button>
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <h5 class="card-title fw-bold">London</h5>
-                                <div
-                                    class="d-flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-star-fill text-warning mx-2"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                    </svg>
-
-                                    <span class="text-muted fw-bold"
-                                        style="font-family: Arial, Helvetica, sans-serif;">4.8</span>
-                                </div>
-                            </div>
-
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <p class="card-text mt-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="18" height="18"
-                                        fill="currentColor"
-                                        class="bi bi-geo-alt-fill text-muted"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                    </svg>
-                                    <span
-                                        style="font-family: Arial, Helvetica, sans-serif;">UK</span>
-                                </p>
-                                <div class="d-flex align-items-center">
-                                    <div
-                                        class="text-decoration-line-through">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="18" height="18"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar "
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span class="text-muted me-3 fw-bold"
-                                            style="font-family: Arial, Helvetica, sans-serif;">950</span>
-                                    </div>
-                                    <div
-                                        class="d-flex align-items-center rounded-3"
-                                        style="background-color: #faddd2;">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="18" height="18"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar"
-                                            style="color: #f87141;"
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span
-                                            class="fw-bold me-2"
-                                            style="color: #f87141;"
-                                            style="font-family: Arial, Helvetica, sans-serif;">850</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-                <div class="d-flex justify-contents-center my-5">
-                    <div class="col-12 align-items-center">
+                <div class="d-flex justify-content-center my-4">
+                    <div
+                        class="d-flex align-items-center justify-content-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40"
                             height="40" fill="currentColor"
                             class="bi bi-arrow-left-short arrow__clas"
@@ -653,424 +409,134 @@
 
                 </div>
 
-                <div class="container d-flex">
+            </section>
 
-                </div>
-
-            </div>
-
-            <!--section 4  -->
-            <div class="py-4 mt-4 text-center container-fluid">
-                <div class="row py-lg-5 mb-0">
-                    <div class="col-md-6 mx-auto">
-                        <h1
-                            class="fw-bold text-fluid display-5 text-center text-wrap"
-                            style="font-family: 'Raleway', sans-serif; line-height: 1">Best
-                            <span
-                                style="color: #f87141;">vacation plan</span>
-                        </h1>
-                        <p
-                            class="text-muted text-center text-wrap text-fluid">
-                            Plan your perfect vacation with our travel agency.
-                            Choose among hundreds of all-inclusive offers!
-                        </p>
-                    </div>
-                    <!--Aviones para organizar-->
-                    <!--<div class="col-md-3 ps-3">
-                        <img src="img/aviones.png" class="img-fluid"
-                            style="width: 100%;">
-                    </div>-->
-
-                </div>
-                <div class="d-flex mb-3 mt-0 justify-content-end col-md-11">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40"
-                        height="40" fill="currentColor"
-                        class="bi bi-arrow-left-short mx-3 arrow__clas"
-                        viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40"
-                        height="40" fill="currentColor"
-                        class="bi bi-arrow-right-short arrow__clas"
-                        viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
-                    </svg>
-
-                </div>
-
-                <div class="container d-flex justify-content-between flex-wrap">
-
-                    <!--card 1-->
-                    <div class="card shadow bg-body rounded"
-                        style="width: 350px;">
-                        <img src="img/viajero1.png" class="card-img-top"
-                            alt="Imagen de la ciudad">
-                        <div class="card-body text-start">
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <div class="card-text mt-3 d-flex">
-                                    <h4 class="card-title fw-bold text-star">Rome,
-                                        Italy</h2>
-                                </div>
-
-                                <div class="d-flex align-items-center">
-                                    <div
-                                        class="d-flex align-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="32" height="32"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar pt-1"
-                                            style="color: #f87141;"
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span
-                                            class="fw-bold me-2 pt-1 fs-3"
-                                            style="color: #f87141;font-family: Arial, Helvetica, sans-serif;">5,42k</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex align-items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-send-fill"
-                                        style="color: #f87141;"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
-                                    </svg>
-                                    <span class="ms-3 text-muted fw-bold"
-                                        style="font-family: Arial, Helvetica, sans-serif;">10
-                                        Days Trip</span>
-                                </div>
-
-                                <div
-                                    class="d-flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-star-fill text-warning mx-2"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                    </svg>
-
-                                    <span class="fw-bold pe-2"
-                                        style="font-family: Arial, Helvetica, sans-serif; color: #8b8988">4.8</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--card 2-->
-                    <div class="card shadow bg-body rounded"
-                        style="width: 350px;">
-                        <img src="img/mountain1.png" class="card-img-top"
-                            alt="Imagen de la ciudad">
-                        <div class="card-body text-start">
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <div class="card-text mt-3 d-flex">
-                                    <h4 class="card-title fw-bold text-star">London,
-                                        UK</h2>
-                                </div>
-
-                                <div class="d-flex align-items-center">
-                                    <div
-                                        class="d-flex align-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="32" height="32"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar pt-1"
-                                            style="color: #f87141;"
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span
-                                            class="fw-bold me-2 pt-1 fs-3"
-                                            style="color: #f87141;font-family: Arial, Helvetica, sans-serif;">2,42k</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex align-items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-send-fill"
-                                        style="color: #f87141;"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
-                                    </svg>
-                                    <span class="ms-3 text-muted fw-bold"
-                                        style="font-family: Arial, Helvetica, sans-serif;">07
-                                        Days Trip</span>
-                                </div>
-
-                                <div
-                                    class="d-flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-star-fill text-warning mx-2"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                    </svg>
-
-                                    <span class="fw-bold pe-2"
-                                        style="font-family: Arial, Helvetica, sans-serif; color: #8b8988">4.7</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--card 3-->
-                    <div class="card shadow bg-body rounded"
-                        style="width: 350px;">
-                        <img src="img/playas.png" class="card-img-top"
-                            alt="Imagen de la ciudad">
-                        <div class="card-body text-start">
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <div class="card-text mt-3 d-flex">
-                                    <h4 class="card-title fw-bold text-star">Osaka,
-                                        Japan</h2>
-                                </div>
-
-                                <div class="d-flex align-items-center">
-                                    <div
-                                        class="d-flex align-items-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            width="32" height="32"
-                                            fill="currentColor"
-                                            class="bi bi-currency-dollar pt-1"
-                                            style="color: #f87141;"
-                                            viewBox="0 0 18 18">
-                                            <path
-                                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
-                                        </svg>
-                                        <span
-                                            class="fw-bold me-2 pt-1 fs-3"
-                                            style="color: #f87141;font-family: Arial, Helvetica, sans-serif;">5,42k</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div
-                                class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex align-items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-send-fill"
-                                        style="color: #f87141;"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
-                                    </svg>
-                                    <span class="ms-3 text-muted fw-bold"
-                                        style="font-family: Arial, Helvetica, sans-serif;">10
-                                        Days Trip</span>
-                                </div>
-
-                                <div
-                                    class="d-flex">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor"
-                                        class="bi bi-star-fill text-warning mx-2"
-                                        viewBox="0 0 16 16">
-                                        <path
-                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                    </svg>
-
-                                    <span class="fw-bold pe-2"
-                                        style="font-family: Arial, Helvetica, sans-serif; color: #8b8988">4.8</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- Section 5-->
-            <section id="testimonial">
-
-                <div class="container">
+            <!-- Sección 4-->
+            <section class="py-5 bg-100">
+                <div class="container pt-4">
                     <div class="row">
-                        <div class="col-lg-5">
-                            <div class="mb-8 text-start">
-                                <h5 class="text-secondary">Testimonials </h5>
-                                <h3
-                                    class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">What
-                                    people say about Us.</h3>
-                            </div>
+                        <div class="col-lg-12 mx-auto text-center mb-3">
+                            <h1 class="display-3"
+                                style="font-size: 3rem;">Exclusive
+                                <span class="text-danger">deals & discounts</span></h1>
+                            <p class="mb-5 pt-4 fw-medium lh-lg fs-lg-1">Discover
+                                our fantastic early booking
+                                discounts<br
+                                    class="d-none d-xl-block" /> & start
+                                planning your journey.</p>
                         </div>
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-6">
-                            <div class="pe-7 ps-5 ps-lg-0">
-                                <div
-                                    class="carousel slide carousel-fade position-static"
-                                    id="testimonialIndicator"
-                                    data-bs-ride="carousel">
-                                    <div class="carousel-indicators">
-                                        <button class="active" type="button"
-                                            data-bs-target="#testimonialIndicator"
-                                            data-bs-slide-to="0"
-                                            aria-current="true"
-                                            aria-label="Testimonial 0"></button>
-                                        <button class="false" type="button"
-                                            data-bs-target="#testimonialIndicator"
-                                            data-bs-slide-to="1"
-                                            aria-current="true"
-                                            aria-label="Testimonial 1"></button>
-                                        <button class="false" type="button"
-                                            data-bs-target="#testimonialIndicator"
-                                            data-bs-slide-to="2"
-                                            aria-current="true"
-                                            aria-label="Testimonial 2"></button>
-                                    </div>
-                                    <div class="carousel-inner">
-                                        <div
-                                            class="carousel-item position-relative active">
-                                            <div class="card shadow"
-                                                style="border-radius:10px;">
-                                                <div
-                                                    class="position-absolute start-0 top-0 translate-middle">
-                                                    <img
-                                                        class="rounded-circle fit-cover"
-                                                        src="assets/img/testimonial/author.png"
-                                                        height="65" width="65"
-                                                        alt /></div>
-                                                <div class="card-body p-4">
-                                                    <p class="fw-medium mb-4">&quot;On
-                                                        the Windows talking
-                                                        painted pasture yet its
-                                                        express parties use.
-                                                        Sure last upon he same
-                                                        as knew next. Of
-                                                        believed or diverted
-                                                        no.&quot;</p>
-                                                    <h5 class="text-secondary">Mike
-                                                        taylor</h5>
-                                                    <p
-                                                        class="fw-medium fs--1 mb-0">Lahore,
-                                                        Pakistan</p>
-                                                </div>
+                    </div>
+                    <div class="row flex-center h-100">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card overflow-hidden shadow">
+                                        <img class="card-img-top"
+                                            src="img/Image (1).png"
+                                            alt="Rome, Italty" />
+                                        <div class="card-body py-4 px-3">
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                                                <h4
+                                                    class="text-secondary fw-medium"><a
+                                                        class="link-900 text-decoration-none stretched-link"
+                                                        href="#!">Rome, Italty</a></h4><span
+                                                    class="fs-1 fw-medium">$5,42k</span>
                                             </div>
                                             <div
-                                                class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100"
-                                                style="border-radius:10px;transform:translate(25px, 25px)">
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="carousel-item position-relative ">
-                                            <div class="card shadow"
-                                                style="border-radius:10px;">
-                                                <div
-                                                    class="position-absolute start-0 top-0 translate-middle">
-                                                    <img
-                                                        class="rounded-circle fit-cover"
-                                                        src="assets/img/testimonial/author2.png"
-                                                        height="65" width="65"
-                                                        alt /></div>
-                                                <div class="card-body p-4">
-                                                    <p class="fw-medium mb-4">&quot;Jadoo
-                                                        is recognized as one of
-                                                        the finest travel agency
-                                                        in the world. When it
-                                                        came to planning a trip,
-                                                        I found them to be
-                                                        dependable.&quot;</p>
-                                                    <h5 class="text-secondary">Thomas
-                                                        Wagon</h5>
-                                                    <p
-                                                        class="fw-medium fs--1 mb-0">CEO
-                                                        of Red Button</p>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100"
-                                                style="border-radius:10px;transform:translate(25px, 25px)">
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="carousel-item position-relative ">
-                                            <div class="card shadow"
-                                                style="border-radius:10px;">
-                                                <div
-                                                    class="position-absolute start-0 top-0 translate-middle">
-                                                    <img
-                                                        class="rounded-circle fit-cover"
-                                                        src="assets/img/testimonial/author3.png"
-                                                        height="65" width="65"
-                                                        alt /></div>
-                                                <div class="card-body p-4">
-                                                    <p class="fw-medium mb-4">&quot;On
-                                                        the Windows talking
-                                                        painted pasture yet its
-                                                        express parties use.
-                                                        Sure last upon he same
-                                                        as knew next. Of
-                                                        believed or diverted
-                                                        no.&quot;</p>
-                                                    <h5 class="text-secondary">Kelly
-                                                        Willium</h5>
-                                                    <p
-                                                        class="fw-medium fs--1 mb-0">Khulna,
-                                                        Bangladesh</p>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100"
-                                                style="border-radius:10px;transform:translate(25px, 25px)">
-                                            </div>
+                                                class="d-flex align-items-center">
+                                                <img
+                                                    src="img/dest/navigation.svg"
+                                                    style="margin-right: 14px"
+                                                    width="20" alt="navigation" /><span
+                                                    class="fs-0 fw-medium">10
+                                                    Days Trip</span></div>
                                         </div>
                                     </div>
-                                    <div
-                                        class="carousel-navigation d-flex flex-column flex-between-center position-absolute end-0 top-lg-50 bottom-0 translate-middle-y z-index-1 me-3 me-lg-0"
-                                        style="height:60px;width:20px;">
-                                        <button
-                                            class="carousel-control-prev position-static"
-                                            type="button"
-                                            data-bs-target="#testimonialIndicator"
-                                            data-bs-slide="prev"><img
-                                                src="assets/img/icons/up.svg"
-                                                width="16" alt="icon" /></button>
-                                        <button
-                                            class="carousel-control-next position-static"
-                                            type="button"
-                                            data-bs-target="#testimonialIndicator"
-                                            data-bs-slide="next"><img
-                                                src="assets/img/icons/down.svg"
-                                                width="16" alt="icon" /></button>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="card overflow-hidden shadow">
+                                        <img class="card-img-top"
+                                            src="img/faro.png"
+                                            alt="Rome, Italty" />
+                                        <div class="card-body py-4 px-3">
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                                                <h4
+                                                    class="text-secondary fw-medium"><a
+                                                        class="link-900 text-decoration-none stretched-link"
+                                                        href="#!">Rome, Italty</a></h4><span
+                                                    class="fs-1 fw-medium">$5,42k</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center">
+                                                <img
+                                                    src="img/dest/navigation.svg"
+                                                    style="margin-right: 14px"
+                                                    width="20" alt="navigation" /><span
+                                                    class="fs-0 fw-medium">10
+                                                    Days Trip</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="card overflow-hidden shadow">
+                                        <img class="card-img-top"
+                                            src="img/Image (2).png"
+                                            alt="Rome, Italty" />
+                                        <div class="card-body py-4 px-3">
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                                                <h4
+                                                    class="text-secondary fw-medium"><a
+                                                        class="link-900 text-decoration-none stretched-link"
+                                                        href="#!">Rome, Italty</a></h4><span
+                                                    class="fs-1 fw-medium">$5,42k</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center">
+                                                <img
+                                                    src="img/dest/navigation.svg"
+                                                    style="margin-right: 14px"
+                                                    width="20" alt="navigation" /><span
+                                                    class="fs-0 fw-medium">10
+                                                    Days Trip</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="card overflow-hidden shadow">
+                                        <img class="card-img-top"
+                                            src="img/Image (3).png"
+                                            alt="Rome, Italty" />
+                                        <div class="card-body py-4 px-3">
+                                            <div
+                                                class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                                                <h4
+                                                    class="text-secondary fw-medium"><a
+                                                        class="link-900 text-decoration-none stretched-link"
+                                                        href="#!">Rome, Italty</a></h4><span
+                                                    class="fs-1 fw-medium">$5,42k</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center">
+                                                <img
+                                                    src="img/dest/navigation.svg"
+                                                    style="margin-right: 14px"
+                                                    width="20" alt="navigation" /><span
+                                                    class="fs-0 fw-medium">10
+                                                    Days Trip</span></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div><!-- end of .container-->
+                </div>
 
             </section>
 
-        </div>
+        </main>
 
         <!-- Scripts-->
         <script
@@ -1081,6 +547,8 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
             integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
             crossorigin="anonymous"></script>
+        <script
+            src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
 
     </body>
 </html>
