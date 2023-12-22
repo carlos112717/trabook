@@ -5326,6 +5326,10 @@ fieldset:disabled .btn {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
+.card-footer-top{
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
 .card-footer:last-child {
   border-radius: 0 0 calc(1.5rem - 1px) calc(1.5rem - 1px);
 }
