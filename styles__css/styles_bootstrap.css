@@ -19054,10 +19054,11 @@ iframe {
 
 .icon-item#facebook {
   background: #FFFEFE;
+
 }
 
 .icon-item#facebook:hover, .icon-item#facebook:focus {
-  background-color: #3c5a99;
+  background-color: #f87141;
 }
 
 .icon-item#instagram {
@@ -19065,7 +19066,7 @@ iframe {
 }
 
 .icon-item#instagram:hover, .icon-item#instagram:focus {
-  background-image: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+  background: #f87141;
 }
 
 .icon-item#twitter {
@@ -19073,7 +19074,7 @@ iframe {
 }
 
 .icon-item#twitter:hover, .icon-item#twitter:focus {
-  background-color: #1da1f2;
+  background-color: #f87141;
 }
 
 .icon-item:hover, .icon-item:focus {
@@ -19282,6 +19283,10 @@ iframe {
 
 .icon-light {
   color: #F0F4F9;
+}
+
+.icon-wite {
+  color: #FFFFFF;
 }
 
 .icon-dark {

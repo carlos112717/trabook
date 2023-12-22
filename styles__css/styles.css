@@ -24,22 +24,10 @@
   border-radius: 5px;
 }
 
-/*
+/*styles probe*/
+.prueba {
+    background: #0c0c0c;
+}
 
-<div
-                    class="pt-5 text-center d-flex justify-content-between"
-                    style="border-top: 1px solid rgb(116, 114, 114);">
-                    <div class="row text-start"><p
-                            class="mb-0 text-secondary fs--1 fw-medium">All
-                            rights
-                            2023
-                        </p></div>
-                    <div class="row ps-6"><p
-                            class="mb-0 text-secondary fs--1 fw-medium">All
-                            rights
-                            2023
-                        </p></div>
-
-                </div>*/
 
 
